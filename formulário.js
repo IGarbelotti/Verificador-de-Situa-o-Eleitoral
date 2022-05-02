@@ -11,6 +11,9 @@ function verificar(){
         r.innerText = "Voce se encontra em idade de voto facultativo."
 
     }
+    else if(iValor>=70){
+        r.innerText = "Voce se encontra em idade de voto facultativo."
+    }
     else{
         r.innerText = "Voce não se encontra em idade apta para votar."
     }
